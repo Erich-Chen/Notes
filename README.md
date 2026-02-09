@@ -12,10 +12,9 @@ https://github.com/docsifyjs/docsify-template
 
 
 ```bash
-# mkdir ./docs
-mkdir ./mdnotes
+mkdir ./docs
 
-cat << EOL |  tee ./mdnotes/index.html
+cat << EOL |  tee ./docs/index.html
 <!-- index.html -->
 
 <!DOCTYPE html>
@@ -42,7 +41,7 @@ cat << EOL |  tee ./mdnotes/index.html
 
 EOL
 
-cat << EOL |  tee ./mdnotes/README.md
+cat << EOL |  tee ./docs/README.md
 Docsify test page
 EOL
 
@@ -51,7 +50,7 @@ EOL
 ## Release on GitHub Pages
 
 ```bash
-touch ./mdnotes/.nojekyll
+touch ./docs/.nojekyll
 ```
 
 ## Customization / Improvement
