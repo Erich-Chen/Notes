@@ -8,6 +8,8 @@ It is more recommended to use `docsify-template` project:
 
 https://github.com/docsifyjs/docsify-template
 
+
+
 ## Quick Start
 
 
@@ -51,15 +53,38 @@ EOL
 
 ```bash
 touch ./docs/.nojekyll
+
+# Settings > Pages: Branch "main", "/docs" > save
+# Refresh the page, and see "Your site is live at ..." > Visit site
+# (optional) custom domain ...
 ```
+
+
 
 ## Customization / Improvement
 
 ### More pages
 
+
+
 ### navbar
+
+
 
 ### Cover Page
 
+
+
 ### Markdown Configuration
+
+
+
+## Private Host
+
+### Tailscale Funnel
+
+
+
+### Nginx
+
 
