@@ -1,5 +1,7 @@
 # Markdown Notes Driven by Docsify
 
+NOTE: This README.md file is NOT part of docsify documents.
+
 My manually created markdown notes using docsify.
 
 [Docsify](https://docsify.js.org/) is "A magical documentation site generator".
@@ -65,7 +67,10 @@ touch ./docs/.nojekyll
 
 ### More pages
 
+Add some more markdown files.
 
+```bash
+```
 
 ### navbar
 
