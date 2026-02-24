@@ -16,20 +16,23 @@
   </head>
 
   <body>
-    <div id="app">Loading...</div>
+    <div id="notes">Loading...</div>
     <script>
         // Docsify configurations
         window.$docsify = {
             name: 'notes',
-            // sidebar
+            themeColor: '#77AAC2',
             auto2top: true,
+            // sidebar from _sidebar.md
             loadSidebar: true,
+            // navigation bar from _navbar.md
             loadNavbar: true,
+            // merge navbar on small screens
             mergeNavbar: true,
             maxLevel: 4,
             subMaxLevel: 3,
 
-            // cover page
+            // cover page from _coverpage.md
             coverpage: true,
 
             // Search plugin
