@@ -1,6 +1,8 @@
 <!-- docs/_sidebar.md -->
 
 * [Home](/)
-* [Page1](Page1.md)
-* [Page101](Pages/Page101.md)
+* [Secion1](/s1/)
+* [Secion2](/s2/)
+* [Secion3](/s3/)
+* [Secion4](/s4/)
 
